@@ -6,15 +6,7 @@ import {
     GoogleAuthProvider,
 } from 'firebase/auth';
 import { getFirestore, doc, getDoc, setDoc } from 'firebase/firestore';
-
-const firebaseConfig = {
-    apiKey: "my_api_key",
-    authDomain: "auth_domain.firebaseapp.com",
-    projectId: "project_id",
-    storageBucket: "storage_bucket",
-    messagingSenderId: "messaging_sender_id",
-    appId: "app_id"
-};
+import firebaseConfig from './firebaseConfig';
 
 const firebaseApp = initializeApp(firebaseConfig);
 
