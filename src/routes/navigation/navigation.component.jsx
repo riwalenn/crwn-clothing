@@ -9,12 +9,7 @@ import './navigation.styles.scss';
 
 
 const Navigation = () => {
-    const { currentUser, setCurrentUser } = useContext(UserContext);
-
-    const signOutHandler = async () => {
-        await signOutuser();
-        setCurrentUser(null);
-    }
+    const { currentUser } = useContext(UserContext);
 
     return (
         <Fragment>
