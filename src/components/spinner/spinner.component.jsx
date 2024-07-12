@@ -1,10 +1,9 @@
-import { SpinnerOverlay, SpinnerContainer } from "./spinner.styles";
-import {CategoryContainer} from "../../routes/category/category.styles";
+import { SpinnerContainer, SpinnerOverlay } from './spinner.styles';
 
 const Spinner = () => (
-    <SpinnerOverlay>
-        <CategoryContainer></CategoryContainer>
-    </SpinnerOverlay>
+  <SpinnerOverlay>
+    <SpinnerContainer />
+  </SpinnerOverlay>
 );
 
 export default Spinner;
